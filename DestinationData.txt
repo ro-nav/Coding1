@@ -1,0 +1,26 @@
+Arrays
+1.	Create array of integers based on the number of command line argument. Initilaize array elements based on command line arguments. Find out the max, min and average of this array.
+2.	Create array of 3 boxes. Display volume calculated for each box. Use class Box which is already created.
+3.	Create 3*3 array for storing integers. 
+Create single dimensional arrays to maintain rowwise sum and columnwise sum of the 2d array.
+Check wheher it is square matrix
+Take the diagonal sum and difference if it is square matrix
+    Inheritance
+1.	Create a class Customer having emailid and address. Create a subclass RegCustomer by adding data member as reg_no. Accept the type of the customer from user and accordingly accept the information from the user. Write method giveDiscount() in Customer and RegCustomer which needs input parameter as shopping price. Give no discount to Customer but give 5% discount RegCustomer and display the final price.
+2.	Create a class Doctor inheriting from Person class. Add extra state like degree,regno, salary in Doctor class and override method display in Doctor. Write tostring() method to display doctor and person details.
+3.	Create ColorPoint class extending from class Point. Add the data member as color(String) and static data member as colors(String []). In the parameterised constructor compare the color with array elements, if it is equal to any of the element, assign the value else assign "white" color value. Create the instance and verify.
+4.	Create subclasse from Book(bookid, title, price) class as EBook and PaperBook. In EBook give discount (as mentioned below) on the original cost and for PaperBook add delivery charges(as  mentioned below). Add the method calculateCost() in all the classes. 
+if the cost is in the specified range, add following discount
+                   <=500  -   2%
+>500 and <=1000   -   5%
+>1000 and <=5000  -   7%
+if the cost is in the specified range, add following delivery charges
+                    <=500  -   7%
+>500 and <=1000   -   5%
+>1000 and <=5000  -   2%
+Create array of 5 books. Accept type of the book and accordingly information about 5 books and call calCost() method
+5.	Create class Account having data mambes as accno, name and balance. Create 2 subclassess as SavingsAccount and RecurringAccount from class Account. Recurring account will have extra data member as installment. Add void withdraw(double amt) method in class Account as abstract and override this method in subclasses. Withdrawl is not allowed from RecurringAccount and in SavingsAccount keep minimum balance as 2000 and then only remaining ammt can be withdrawn. Create array of 5 Account object in main method. Accept the type of account and it's related information from user. Get the amt to be withdrawn from user and call the withdraw() method.
+At the end iterate the array and display all the Account objects.
+
+
+
